@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+.header {  
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  margin-bottom: 4rem;
+}
+
+.ImageHeader {
+  width: 100%;
+  height: 18rem;
+
+  margin-bottom: 1rem;
+}
+
+.separator {
+  width: 95%;
+  height: 0.05rem;
+
+  margin: 4rem auto;
+
+  background: #000000;
+}
+
+.content {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 2rem 0;
+}
+
+.allInfo {
+  color: #ffffff;
+}
+
+.allInfo .infoImage {
+  width: 100%;
+
+  border-radius: 0.5rem;
+
+  background: url('../assets/image-primavera-arabe2.jpeg') no-repeat;
+
+  margin: 0 1rem;
+}
+
+.allInfo .infoImage .info {
+  width: 70%;
+
+  padding: 1rem 0;
+}
+
+.info {
+  width: 50%;
+
+  padding: 0 0.5rem;
+}
+
+.infoTitle {
+  font-weight: 900;
+
+  margin-bottom: 1rem;
+}
+
+.infoText {
+  font-size: 1.15rem;
+}
+
+.infoImage {
+  width: 50%;
+  
+  padding: 0 1rem;
+}
+
+.infoImage img {
+  border-radius: 0.5rem;  
+}
+
+.rigthImageOne {
+  width: 100%;
+  height: 9rem;
+}
+
+.lefthImageOne {
+  width: 10rem;
+  height: 9rem;
+}
+
+.footer {
+  width: 100%;
+
+  background: #ff5e5e;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  color: #ffffff;
+
+  font-weight: 900;
+
+  font-size: 0.55rem;
+
+  padding: 0.2rem;
+}
+
+@media screen and (min-width: 800px){
+  .main {
+    width: 80%;
+
+    margin: 0 auto;
+  }
+
+  .rigthImageOne {
+    width: 100%;
+    height: 12rem;
+  }
+  
+  .lefthImageOne {
+    width: 100%;
+    height: 12rem;
+  }
+
+  .allInfo {
+    width: 77%;
+
+    margin: 0 auto;
+  }
+
+  .allInfo .infoImage {
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .main {
+    width: 60%;
+
+    margin: 0 auto;
+  }
+}
